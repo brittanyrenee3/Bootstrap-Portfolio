@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+.new1 {
+    border: 10px solid teal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/webb.png);
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav-header {
+    color: white;
+    text-align: center;
+    background: teal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    width: 250px;
+    margin: 0;
+    height: 100%;
+    padding: 20px;
+}
+
+.navbar-nav {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    float: right;
+    position: relative;
+}
+
+.nav-link a:not(:last-child) {
+    border-right: black solid 1px;
+    padding-right: 3px;
+}
+
+.nav-link {
+    position: relative;
+    float: right;
+    padding-top: 15px;
+}
+
+.me {
+    padding: 5px 30px;
+    margin: 20px auto 80px auto;
+    font-size: 18px;
+    color: teal;
+    text-align: left;
+    background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+}
+
+.contact {
+    padding: 5px 30px;
+    margin: 20px auto 80px auto;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+}
+#contact-header {
+    color: teal;
+}
+
+.portfolio {
+    padding: 5px 30px;
+    margin: 20px auto 80px auto;
+    font-size: 18px;
+    color: teal;
+    text-align: left;
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 960px;
+}
+
+p {
+    margin: 40px auto;
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: darkgray;
+    color: white;
+    font-size: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px 0;
+    border-top: 5px solid teal;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 860px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    resize: vertical;
+}
+
+input[type=message] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    resize: vertical;
+}
+
+#profile-photo {
+    width: 75px;
+    float: left;
+    margin-right: 10px;
+}
+
+.images {
+    margin: 20px 50px;
+}
