@@ -1,11 +1,43 @@
 * {
     box-sizing: border-box;
 }
-
+​
 .new1 {
     border: 10px solid teal;
 }
-
+/* start */
+.page-header {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.header-links-wrapper {
+    display: flex;
+    margin: auto 0;
+    justify-content: space-evenly;
+}
+​
+.header-links {
+    color: black;
+}
+​
+.header-wrapper{
+    margin: 0 auto;
+    max-width: 960px;
+}
+​
+.header-container {
+    background: white;
+    margin: 0 auto;
+}
+​
+.header-title {
+    text-align: center;
+    background: teal;
+    margin: 0;
+    width: 100%;
+}
+/* end */
 body {
     margin: 0;
     padding: 0;
@@ -26,7 +58,7 @@ body {
     height: 100%;
     padding: 20px;
 }
-
+​
 .empty-space{
     margin-left: auto;
 }
@@ -41,12 +73,15 @@ body {
     font-weight: bold;
     width: 960px;
 }
-
+​
 #header {
     color: teal;
 }
-
+​
 .container{
+    background-color: white;
+    padding: 40px;
+    max-width: 960px;
     margin: 40px auto;
     font-size: 18px;
     color: #777777;
@@ -54,9 +89,8 @@ body {
     font-family: 'Odibee Sans', cursive;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    padding-bottom: 30px;
 }
-
+​
 .sticky-bottom {
     text-align: center;
     margin: 0 auto;
@@ -71,7 +105,7 @@ body {
     padding: 20px 0;
     border-top: 5px solid teal;
 }
-
+​
 input[type=text],
 select,
 textarea {
@@ -83,7 +117,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
-
+​
 input[type=email] {
     background-color: teal;
     color: white;
@@ -92,7 +126,7 @@ input[type=email] {
     cursor: pointer;
     resize: vertical;
 }
-
+​
 input[type=message] {
     background-color: teal;
     color: white;
@@ -101,7 +135,7 @@ input[type=message] {
     cursor: pointer;
     resize: vertical;
 }
-
+​
 input[type=submit] {
     background-color: teal;
     color: white;
@@ -110,18 +144,27 @@ input[type=submit] {
     cursor: pointer;
     resize: vertical;
 }
-
+​
 #profile-photo {
     width: 75px;
     float: left;
     margin-right: 10px;
 }
-
+​
 .images {
     margin: 20px 50px;
 }
-@media screen and (max-width: 980px) and (min-width: 768px), (min-width: 640px) {
-    .col-lg-12-col-s-6-col-xs-4
-    display: flex;
+@media screen and (min-width: 300px) {
+    .header-title {
+       width: 100%;
+    }
+}
+​
+@media screen and (min-width: 992px) {
+    .page-header {
+        justify-content: start;
+    }
+    .header-title {
+        max-width: 380px;
     }
 }
