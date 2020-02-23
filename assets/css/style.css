@@ -11,13 +11,11 @@ body {
     padding: 0;
     background: url(../images/webb.png);
 }
-
-.header-content {
+.container-fluid {
     width: 960px;
     margin: 0 auto;
 }
-
-.nav-header {
+.navbar-light .navbar-brand {
     color: white;
     text-align: center;
     background: teal;
@@ -29,38 +27,10 @@ body {
     padding: 20px;
 }
 
-.navbar-nav {
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    float: right;
-    position: relative;
+.empty-space{
+    margin-left: auto;
 }
-
-.nav-link a:not(:last-child) {
-    border-right: black solid 1px;
-    padding-right: 3px;
-}
-
-.nav-link {
-    position: relative;
-    float: right;
-    padding-top: 15px;
-}
-
-.me {
-    padding: 5px 30px;
-    margin: 20px auto 80px auto;
-    font-size: 18px;
-    color: teal;
-    text-align: left;
-    background: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    width: 960px;
-}
-
-.contact {
+.main {
     padding: 5px 30px;
     margin: 20px auto 80px auto;
     font-size: 18px;
@@ -71,23 +41,12 @@ body {
     font-weight: bold;
     width: 960px;
 }
-#contact-header {
+
+#header {
     color: teal;
 }
 
-.portfolio {
-    padding: 5px 30px;
-    margin: 20px auto 80px auto;
-    font-size: 18px;
-    color: teal;
-    text-align: left;
-    background-color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    width: 960px;
-}
-
-p {
+.container{
     margin: 40px auto;
     font-size: 18px;
     color: #777777;
@@ -98,7 +57,7 @@ p {
     padding-bottom: 30px;
 }
 
-.footer {
+.sticky-bottom {
     text-align: center;
     margin: 0 auto;
     position: fixed;
@@ -160,4 +119,17 @@ input[type=submit] {
 
 .images {
     margin: 20px 50px;
+}
+  
+.col-3 col-s-12{
+    margin-right: 10px;
+    padding: 12px 20px;
+}
+.row{
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }

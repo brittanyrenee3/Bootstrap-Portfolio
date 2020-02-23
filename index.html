@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
   <title>Brittany's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -9,13 +9,13 @@
 
 <body>
   <header>
-    <div class="topnav">
       <nav class="header-content">
-        <h1 class="nav-header">Brittany-Renee Davis</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <ul class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+          <a class="navbar-brand" href="#">Brittany-Renee</a>
+          <div class="empty-space"></div>
+            <ul class="navbar-nav navbar-right">
               <li class="nav-item active">
-                <a class="nav-link" href="./index.html">About
+                <a class="nav-link" href="./index.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
@@ -24,17 +24,18 @@
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
             </ul>
-          </nav>
       </div>
-    </div>
+        </nav>
   </header>
 
-  <div class="me">
-    <h2>About Me</h2>
+  <div class="main">
+    <h2 id="header">About Me</h2>
     <hr>
-    <img id="profile-photo" src="images/profile.png" alt="profile">
-    <div>
-      <p id="first">My name is Brittany-Renee Davis. I am a digital marketer and content creator for a fashion line
+    <img id="profile-photo" src="./assets/images/profile.png" alt="profile">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+        <p id="first">My name is Brittany-Renee Davis. I am a digital marketer and content creator for a fashion line
         based in Los Angeles with showrooms around the nation. I also freelance as a content developer for multiple
         lines and fashion PR Firms located in the Arts District and the CMC.
       </p>
@@ -48,7 +49,7 @@
       </p>
     </div>
     <footer>
-      <div class="footer">
+      <div class="sticky-bottom">
         <p4>Copyright &#169;</p4>
       </div>
     </footer>
