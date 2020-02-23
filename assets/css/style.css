@@ -120,16 +120,8 @@ input[type=submit] {
 .images {
     margin: 20px 50px;
 }
-  
-.col-3 col-s-12{
-    margin-right: 10px;
-    padding: 12px 20px;
-}
-.row{
-
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+@media screen and (max-width: 980px) and (min-width: 768px), (min-width: 640px) {
+    .col-lg-12-col-s-6-col-xs-4
+    display: flex;
+    }
 }
